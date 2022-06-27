@@ -1,0 +1,85 @@
+Consider the following tables to write the SQL queries for below questions.
+
+Table: Salespeople
++------+---------+-----------+------+
+| snum | sname   | city      | comm |
++------+---------+-----------+------+
+| 1001 | Peel    | London    | 0.12 |
+| 1002 | Serres  | San Jose  | 0.13 |
+| 1003 | AxelRod | New York  | 0.10 |
+| 1004 | Motika  | London    | 0.11 |
+| 1005 | Fran    | London    | 0.26 |
+| 1007 | Rifkin  | Barcelona | 0.15 |
++------+---------+-----------+------+
+
+Table: Customer
+
++------+----------+----------+--------+------+
+| cnum | cname    | city     | rating | snum |
++------+----------+----------+--------+------+
+| 2001 | Hoffman  | London   |    100 | 1001 |
+| 2002 | Giovanni | Rome     |    200 | 1003 |
+| 2003 | Liu      | San Jose |    200 | 1002 |
+| 2004 | Grass    | Berlin   |    300 | 1002 |
+| 2006 | Clemens  | London   |    100 | 1001 |
+| 2007 | Pereira  | Rome     |    100 | 1004 |
+| 2008 | Cisneros | San Jose |    300 | 1007 |
++------+----------+----------+--------+------+
+
+Table: Orders
+
++------+---------+------------+------+
+| onum | amt     | odate      | cnum |
++------+---------+------------+------+
+| 3001 |   18.69 | 1996-03-10 | 2008 |
+| 3002 | 1900.10 | 2022-04-13 | 2007 |
+| 3003 |  767.19 | 2022-04-13 | 2001 |
+| 3005 | 5160.45 | 2022-05-23 | 2003 |
+| 3006 | 1098.16 | 2022-05-12 | 2008 |
+| 3007 |   75.75 | 2022-06-11 | 2002 |
+| 3008 | 4723.00 | 2022-02-13 | 2006 |
+| 3009 | 1713.23 | 2022-01-13 | 2002 |
+| 3010 | 1309.95 | 2022-03-13 | 2004 |
+| 3011 | 9891.88 | 2022-02-13 | 2006 |
++------+---------+------------+------+
+
+
+
+Questions:
+
+1. Find the largest order taken by each salesperson on each date.
+2. Arrange the Orders table by descending customer number.
+3. Find which salespeople currently have orders in the Orders table.
+4. Count the orders of each of the salespeople and output the results in descending order.
+5. Find customers in San Jose who have a rating above 200.
+6. Give the salespeople’s commissions as percentages instead of decimal numbers.
+7. List the largest orders for October 3, for each salesperson.
+8. Count the number of salespeople currently listing orders in the Orders table.
+9. Find salespeople who have multiple customers.
+10. Find salespeople with customers located in their city.
+11. Find all salespeople whose name starts with ‘P’ and the fourth character is ‘l’.
+12. Select all orders that are greater than the average for October 4.
+13. Write a query that totals the orders for each day and places the results in descending order.
+14. Write a query that calculates the amount of the salesperson’s commission on each order by a
+    customer with a rating above 100.00.
+15. Find only those customers whose ratings are higher than every customer in Rome.
+16. Which salesperson(s) should be fired?
+17. What is the total income for the company?
+18. Write a query that selects the first customer in alphabetical order whose name begins with G.
+19. Which salespeople have no orders between 10/03/1996 and 10/05/1996?
+20. Who is the most successful salesperson?
+21. Who is the worst customer with respect to the company?
+22. Find all orders by customers not located in the same cities as their salespeople.
+23. Find all salespeople who have customers with more than one current order.
+24. Which salesperson has earned the most by way of commission?
+25. Write a query that selects each customer’s smallest order
+
+
+
+
+
+
+
+
+
+
